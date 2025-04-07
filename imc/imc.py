@@ -11,10 +11,12 @@ else:
     else: 
         if imc==25 or imc<30: 
             print ("você está sobre peso!") 
+
         else: 
             if imc==30 or imc<40: 
                 print ("você está obeso!") 
             else: 
                 imc>40 
                 print ("você está obeso mórbido!") 
+
 
